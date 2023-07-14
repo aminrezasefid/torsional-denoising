@@ -13,6 +13,7 @@
             "justMyCode": false,
             "args": ["--log_dir","logs","--dataset","qm9","--cache","data/qm9/cache",
             "--data_dir","data/qm9/qm9/","--std_pickles","data/qm9/standardized_pickles",
+            "--in_node_features","44",
             "--split_path","data/qm9/split.npy"]
         }
     ]
