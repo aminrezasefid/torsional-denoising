@@ -11,7 +11,9 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": false,
-            "args": ["--log_dir","logs","--dataset","qm9","--cache","data/qm9/cache","--data_dir","data/qm9/drugs/","--std_pickles","data/qm9/standardized_pickles"]
+            "args": ["--log_dir","logs","--dataset","qm9","--cache","data/qm9/cache",
+            "--data_dir","data/qm9/qm9/","--std_pickles","data/qm9/standardized_pickles",
+            "--split_path","data/qm9/split.npy"]
         }
     ]
 }
