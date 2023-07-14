@@ -4,6 +4,7 @@ data
 debug
 trash
 wandb
+logs
 .ipynb_checkpoints
 test_run
 *.pdb
